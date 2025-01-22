@@ -1,0 +1,121 @@
+.mine {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 95%;
+    height: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 12%;
+    border: 4.3px solid rgb(55 76 111);
+    border-radius: 14px;
+    background-color: #1b2435;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 347px) {
+    #mine {
+        border: 1.5px solid rgb(55 76 111);
+    }
+    
+}
+#accept {
+    display: inline-block;
+    background-color: #59c637;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+    border: 2px solid #59c637;
+    color: white;
+    font-size: 40px;
+}
+
+#accept svg {
+    height: 100%;
+}
+#accept:disabled{
+    background-color: rgb(12 101 17);
+    border: 2px solid rgb(12 101 17);
+}
+#accept:disabled:hover{
+        background-color: rgb(12 101 17);
+}
+.greena {
+    border: 4px solid #ff8328;
+    background: #ffba0a
+}
+
+@keyframes greena {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.green-animation {
+    animation: greena 0.5s ease-out forwards;
+}
+#accept:hover {
+    background-color: rgb(126, 252, 124);
+}
+
+.add {
+    border: 3px solid #45618e;
+    background-color: #45618e;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.add:hover {
+    background-color: #61799f;
+}
+
+.extract {
+    border: 3px solid #45618e;
+    background-color: #45618e;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.extract:hover {
+    background-color: #61799f;
+}
+
+#desc {
+    background-color: #45618e;
+    border: 3px solid #45618e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 12%;
+    height: 70%;
+    border-radius: 6px;
+    font-size: 16px;
+    left: 36%;
+    position: relative;
+    transition: ease-out 0.2s;
+}
+
+#desc:hover {
+    color: #9bc030;
+}
+
+html {
+    box-sizing: border-box;}
+    *,*:before,*:after {box-sizing: inherit;}
+
+.signal {
+    border: 4px solid yellow;
+}
+@media  {
+    #accept {
+        position: relative;
+        width: 13rem;
+        top: 0.74rem;
+        height: 3rem;
+        left: 1.35rem;
+    }
+}

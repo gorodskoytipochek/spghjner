@@ -1,0 +1,189 @@
+.money {
+    display: inline-block;
+    height: 70%;
+    width: 43%;
+    background-color: #24354f;
+    border: 3px solid #45618e;
+    border-radius: 15px;
+    margin-left: 2%;
+}
+
+.money input {
+    height: 52%;
+    width: 58%;
+    display: flex;
+    position: relative;
+    margin-top: 4%;
+    left: 3%;
+    border-radius: 4px;
+    border: 2px solid #1b2435;
+    background-color: #1b2435;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    text-indent: 10%;
+}
+
+.money input:hover {
+    border: 2px solid #45618e;
+}
+
+.money img {
+    position: fixed;
+    top: 40%;
+    left: 4%;
+    height: 20%;
+}
+.money button {
+    position: relative;
+    left: 70%;
+    width: 10%;
+    height: 50%;
+    top: -50%
+}
+
+.mines-cout a {
+    font-size: 17px;
+    margin-left: 10%;
+    position: relative;
+    color: #8896a7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+}
+
+
+#cout {
+    position: ;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    /* width: 45px; */
+    margin: auto;
+    right: 2rem;
+    top: 0.5rem;
+}
+
+#mini {
+    top: 10%;
+}
+
+.hidden {
+    display: none;
+}
+
+#toggleOptions {
+    /* margin-left: 6.4rem; */
+    /* margin-top: -2.05rem; */
+    border: 2px solid #45618e;
+    border-radius: 8px;
+    background-color: #45618e;
+    color: white;
+    width: 4.1rem;
+    height: 2rem;
+    display: grid;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    margin-right: 0.3rem;
+    margin-left: 3rem;
+}
+
+#toggleOptions svg {
+    width: 100%;
+    height: 100%;
+}
+
+#toggleOptions:hover {
+    background-color: #61799f;
+}
+
+#optionWindow {
+    position: absolute;
+    flex-wrap: wrap;
+    bottom: -2rem;
+    background-color: #24354f;
+    border: 3px solid #45618e;
+    max-width: 447px;
+    z-index: 999;
+    border-radius: 15px;
+    padding: 9px;
+    right: -16.6rem;
+    transform: translate(-28%, -22%);
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #374c6e;
+    border-radius: 50%;
+}
+@media (max-width: 542px) {
+    .circle {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+.optionBtn {
+    border: 3px solid #45618e;
+    border-radius: 10px;
+    background-color: #45618e;
+    color: white;
+    padding: 9px;
+    margin: 3px;
+    cursor: pointer;
+    width: 6rem;
+    text-align: center; 
+    transition: ease-in-out 0.2s;
+    font-size: 20px;
+}
+.optionBtn:disabled{
+    border: rgb(123 131 163);
+    background-color: rgb(123 131 163);
+}
+.optionBtn:hover {
+    border: rgb(4, 215, 0);
+    background-color: rgb(4, 215, 0);
+}
+
+svg {
+    width: 50%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.mines-cout {
+        position: relative;
+        bottom: 0rem;
+        width: 11.5rem;
+        left: 34px;
+        background-color: #24354f;
+        border: 3px solid #45618e;
+        border-radius: 15px;
+        height: 3rem;
+        display: flex;
+        align-self: center;
+}
+.money {
+        position: relative;
+        top: 80%;
+        width: 70%;
+        height: 50%;
+        left: 10%;
+}
+
+@media (max-width: 347px) {
+    .mines-cout {
+        border: 1px solid #45618e;
+    }
+    #mini {
+        font-size: 60%;
+    }
+}
